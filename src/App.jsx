@@ -1,14 +1,13 @@
 import Personal from "./pages/Home/Personal";
 import Business from "./pages/Home/Business";
 import Companies from "./pages/Home/Companies";
-import Header from "./static/header/Header";
-import Footer from "./static/Footer/Footer";
+import Header from "./static/Header";
+import Footer from "./static/Footer";
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
 
 const App = () => {
-  const d =2+3
 
   return(
     <div>

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { MdArrowDropDown } from "react-icons/md";
 import {Link} from "react-router-dom";
-import Sidebar from "../SideBar";
+import Sidebar from "./SideBar";
 import { useState } from "react";
 import { IoReorderTwoOutline } from "react-icons/io5";
 
@@ -84,7 +84,6 @@ export default Header
 
 const Container = styled.div`
 height: 70px;
-/* background-color: blueviolet; */
 display: flex;
 justify-content: space-between;
 align-items: center;

@@ -1,13 +1,13 @@
-import {useState} from 'react'
+import Hero from "../../components/Hero"
+
 
 
 const Personal = () => {
-  const [ ] = useState(0)
-    return(
-       <div>
-     <h1>this is</h1>
-       </div>
-    )
+  return(
+    <div>
+      <Hero />
+    </div>
+  )
 }
 
 export default Personal
