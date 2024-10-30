@@ -26,7 +26,6 @@ const Hero = () => {
 export default Hero
 
 const Container = styled.div`
-background-color: yellow;
 max-width: 1280px;
 padding: 0px 10px;
 display: flex;
@@ -39,12 +38,34 @@ width: 85%;
 display: flex;
 justify-content: space-between;
 `
-const TextBox = styled.div``
+const TextBox = styled.div`
+max-width: 400px;
+display: flex;
+flex-direction:column;
+justify-content: center;
+
+@media (max-width:800px) {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: #40196D;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+
+}
+`
 const ImageBox = styled.div`
 img{
 height: 80%;
 width: 100%;
 padding: 30px;
+
+@media (max-width: 800px) {
+    width: 100%;
+}
 
 }
 `
